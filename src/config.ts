@@ -1,91 +1,81 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Filip Krężel",
+  title: "DevOps Engineer",
+  description: "Portfolio website",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "filip.0krezel@gmail.com",
+    linkedin: "https://www.linkedin.com/in/filip-kr%C4%99%C5%BCel-4727301ab/",
+    github: "https://github.com/Flixirr",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a passionate game development hobbyist with 3.5 years of professional experience as a Data Engineer, DevOps specialist and Penetration Tester. In my professional work, I contributed to data analysis and supported security assessments for AWS-based solutions. I am highly interested in automation and continuously look for ways to optimize workflows. Outside of work, I enjoy developing games and participating in game jams.",
+  skills: ["Python", "C++", "C#", "Jenkins", "Github Actions", "Kubernetes", "AWS", "Docker", "Terraform", "Linux", "Git", "Jenkins"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "[WiP] Job offer scraper with Discord notifications",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+        "A Python-based web scraper that monitors job listings on skillshot.pl and sends notifications end of each day to a Discord channel with new job offers.",
+      link: "https://github.com/Flixirr/skillshot-bot",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Dedicated server for MOBA game",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Created dedicated server and netcode for a MOBA game with autoscaling configuration on Azure PlayFab",
+      link: "https://github.com/Flixirr/MOBA2V2",
+      skills: ["Azure PlayFab", "C#", "Unity", "Server Management"],
     },
     {
-      name: "ExtensionKit",
+      name: "Godot CD pipeline",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A pipeline to automate builds for games made in Godot to speed up development process during game jams.",
+      link: "https://gitlab.com/Flixirr/godot-infra-automation",
+      skills: ["GitLab CI/CD", "Godot"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Capgemini",
+      title: "Data Engineer / DevOps Engineer",
+      dateRange: "March 2022 - Sep 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+
+        "Implemented parts of the CI/CD pipeline for deployments",
+        "Integrated SAST tool with existing pipeline",
+        "Used Terraform to provision and manage AWS infrastructure",
+        "Designed parts of the AWS architecture",
+        "Designed and implemented tests for existing solutions",
+        "Responsible for data processing in financial advisory tool"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
+      company: "Opera",
+      title: "Penetration Tester Intern",
       dateRange: "Jun 2020 - Dec 2021",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Performed tests for existing applications.",
+        "Documented issues that were found during the tests.",
+        "Communicated with developers on how to fix the issues found",
+        "Manually tested various APIs for vulnerabilities"
       ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Politechnika Wroclawska",
+      degree: "Bachelor of Engineering in Applied Computer Science",
+      dateRange: "2019 - 2023",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Thesis title: Cloud solution in MOBA game dedicated server management",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Universytet Dolnośląski DSW",
+      degree: "Master of Science in Game Design",
+      dateRange: "2024 - Present",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        
       ],
     },
   ],
